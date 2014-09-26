@@ -1,0 +1,27 @@
+{
+  "name": "Responsive-Tool-Tip",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Moosylvania/Responsive-Tool-Tip",
+  "authors": [
+    "Joe Madden <joe.madden@moosylvania.com>"
+  ],
+  "description": "Responsive Tool Tip",
+  "main": "responsive-tooltip.js",
+  "keywords": [
+    "js",
+    "jquery",
+    "jquery tooltip",
+    "tooltip"    
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ""
+  }
+}

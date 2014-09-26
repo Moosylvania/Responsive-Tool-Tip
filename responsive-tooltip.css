@@ -1,0 +1,72 @@
+div.tooltip{
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    padding: 80px;
+    background: #ebebeb;
+    z-index: 2;
+    display:none;
+    max-width:100%;
+}
+
+div.tooltip .close, .close:visited{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1em;
+    text-transform: uppercase;
+    display: block;
+    background: #666666;
+    color: #fff;
+}
+
+div.tooltip img{
+    max-width:90%;
+}
+
+div.tooltip.arrow{
+    left:0;
+    top:0;
+    padding:60px;
+}
+
+div.tooltip.arrow img.arr{
+    left:50%;
+    margin-left:-32px;
+    top:-31px;
+    position:absolute;
+}
+
+div.tooltip.arrow .close, div.tooltip.arrow .close:visited{
+    left:auto;
+    right:0;
+}
+
+@media screen and (max-width:641px){
+
+    div.tooltip{
+        position: absolute;
+        left: 100%;
+        padding: 80px 5%;
+        width:90%;
+        background: #ebebeb;
+        z-index: 2;
+        min-height:100%;
+        display:none;
+    }
+
+    div.tooltip.arrow{
+        padding:70px 5%;
+        left:100%;
+    }
+
+    div.tooltip.arrow img.arr{
+        display:none;
+    }
+
+    div.tooltip .close, div.tooltip .close:visited {
+        left:0;
+        right:auto;
+    }
+
+}
