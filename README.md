@@ -18,11 +18,11 @@ To use this tool tip you simply need to have jquery on your site, this is alread
 
 ### Option 1 - Bower -
 
-    > bower install
+    > bower install responsive-tooltip
 
 ### Option 2 - Using Git
 
-    > git clone
+    > git clone git@github.com:Moosylvania/Responsive-Tool-Tip.git
 
 After your include for jQuery, then include responsive-tooltip.css and responsive-tooltip.js on your site.
 
