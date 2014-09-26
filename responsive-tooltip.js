@@ -14,7 +14,7 @@
         if($(this).hasClass('arrow')){
             var arrow = tip.find('.arr');
             if(arrow.length == 0){
-                tip.append('<img src="/images/tooltip-arrow.png" class="arr" />');
+                tip.append('<img src="tooltip-arrow.png" class="arr" />');
             }
             tip.addClass('arrow');
         }
